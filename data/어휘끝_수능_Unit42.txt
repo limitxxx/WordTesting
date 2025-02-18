@@ -1,0 +1,86 @@
+p.442
+ailment|(심각하지 않은)질병
+infect|감염시키다,전염시키다,오염시키다
+infection|감염,전염
+infectious|전염되는,전염성의
+contagious|전염성의,전염되는
+contagion|전염,전염병,감염
+epidemic|전염병,유행,유행병,유행성의
+plague|전염병,(한동안)괴롭히다,성가시게 하다
+
+p.443
+chronic|(주로 병이)만성의,만성 질환을 앓고 있는
+chronically|만성적으로
+acute|(질병이)급성인,급성의,극심한,격렬한,예민한,예리한
+incurable|불치의,치유할 수 없는,(습관 등을)바꿀 수 없는
+influenza|유행성 감기,독감
+diabetes|당뇨병
+dental|치아의,치과의
+dentist|치과 의사
+tumor/tumour|종양
+
+p.444
+handicapped|장애가 있는
+lame|절름발이의,다리를 저는
+handicap|장애,핸디캡,불리한 조건,불리하게 만들다
+cripple|장애를 입히다,손상시키다
+swell|붓다,부풀다,증가하다,팽창하다
+itchy|가려운
+itch|가렵다,가려움
+bruise|멍,타박상,멍이 생기다
+rash|발진
+blister|물집,수포
+mole|사마귀,점,두더지
+scar|흉터,상처
+sprain|(손목.발목 등을)삐다,접질리다
+limp|다리를 절다,절뚝거리다,절뚝거림
+
+p.445
+paralyze|마비시키다,무력하게 하다
+paralysis|마비
+numb|감각이 없는,마비된,감각을 잃게 하다
+strain|(근육의)긴장,삠,부담,압박,(근육에)무리를 주다,잡아당기다,압박을 주다
+allergy|알레르기,과민증
+allergic|알레르기가 있는,알레르기의
+dehydration|탈수,탈수증,건조
+dehydrate|건조시키다
+vomit|토하다,게우다
+
+p.446
+choke|질식시키다,숨 막히게 하다,(성장.발전을)저해하다,(식물을)마르게 하다,질식
+dizzy|어지러운
+seizure|발작
+cramp|(근육의)경련,쥐
+diarrhea|설사
+insomnia|불면증
+vaccine|(예방)백신
+vaccinate|예방 접종을 하다
+vaccination|예방 접종
+diagnose|(질병 등을)진단하다
+diagnosis|진단
+remedy|치료,치료약,해결책,바로잡다,개선하다
+medication|약물,약물치료
+
+p.447
+hospitalize|입원시키다
+painkiller|진통제
+sterilize|살균하다,소독하다
+transfusion|수혈,주입
+prescribe|(약을)처방하다,규정하다
+prescription|처방,처방전,처방약
+dose|(약의 1회분)복용량,투여량,(약을)투여하다
+dosage|(약의)복용량,정량
+
+p.448
+alleviate|(고통 등을)완화하다,덜다
+soothe|(고통 등을)완화하다,덜다,(사람을)달래다,진정시키다
+soothing|위로하는,달래는
+stroke|타격,타법,때리기,치기,성공적인 일,성공적인 행동,성공적인 생각,뇌졸중,발작,수영법,노 젓기,(글씨.그림의)한 획,(특히 동물을)쓰다듬다
+at a[one] stroke|단번에
+
+p.449
+due|~하기로 되어 있는,~할 예정인,~때문에,~로 인한,지불해야 할,마땅한,적절한
+due to|~때문에
+due date|만기일
+case|경우,사례,실정,사실,(경찰이 조사 중인)사건,소송,소송 사건,상자,통
+(just) in case|~할 경우에 대비해서

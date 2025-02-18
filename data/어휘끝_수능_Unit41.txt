@@ -1,0 +1,87 @@
+p.434
+skeleton|골격,뼈대
+spine|척추,등뼈,(동식물의)가시
+limb|사지,팔다리
+flesh|(사람.동물의)살,피부,(과일 등의)과육
+artery|동맥
+vein|정맥,(식물의)잎맥
+
+p.435
+nerve|신경,긴장,불안
+pupil|동공,눈동자,학생
+optical|시각의,시력의,눈의,광학의,빛의
+aural|청각의,귀의
+acoustic|청각의,음향의,(악기가)전자 장치를 쓰지 않는
+
+p.436
+odor|냄새,(특히)악취
+texture|감촉,질감,결
+respire|호흡하다,숨 쉬다
+inhale|숨을 들이마시다
+respiration|호흡
+respiratory|호흡의,호흡 기관의
+pulse|맥박,고동,(규칙적인)진동,박자
+perspire|땀을 흘리다,땀이 나다
+perspiration|땀,땀 흘리기
+saliva|타액,침
+
+p.437
+sniff|코를 훌쩍이다,냄새를 맡다,킁킁거리며 냄새 맡음
+stumble|발을 헛디디다,비틀거리다,발을 헛디딤
+smash|세게 때리다,박살내다,충돌하다,충돌시키다,박살,박살내는 소리,충돌
+haul|세게 끌어당기다,운반하다
+thrust|밀치다,찌르다,찌르기
+slap|철썩 때리다,철썩 때리기,철썩 부딪치는 소리
+
+p.438
+tilt|기울다,기울이다,기울기
+sanitary|위생의,위생적인
+sanitation|위생 관리,위생 시설
+hygiene|위생,청결
+immune|면역성이 있는,면역의,면제되는,면하는
+immunity|면역력,면제
+immunize|면역력을 갖게 하다
+sturdy|(몸이)튼튼한,건장한,(물건이)견고한
+
+p.439
+stout|(사람이)통통한,뚱뚱한,(물건이)튼튼한
+thin|마른
+slender|날씬한,보기 좋게 마른
+skinny|(지나치게)마른
+chubby|토실토실한,통통한
+plump|통통한
+weary|(몹시)지친,피곤한,싫증 난
+be weary of|~에 지치다,~에 싫증이 나다
+obesity|비만,비대
+overweight|과체중의
+obese|비만의
+diet|식습관,식사,식이요법,다이어트,다이어트하다
+dietary|식사의,음식의,식이요법의
+metabolish|신진대사,물질대사
+metabolic|신진대사의
+
+p.440
+digest|소화하다,이해하다,요약,요약문
+digestion|소화,소화작용,소화력
+digestive|소화의
+nourish|영양분을 공급하다,(생각.감정 등을)키우다,육성하다
+nourishment|영양,영양분,자양,자양분
+nutrition|영양,영양 섭취
+malnutrition|영양실조
+nutrient|영양소,영양분
+nutritionist|영양사,영양학자
+nutritious|영양의,영양분이 있는
+protein|단백질
+mineral|무기질
+carbohydrate|탄수화물
+vitamin|비타민
+fat|지방
+calcium|칼슘
+fiber/fibre|섬유,섬유질
+longevity|장수,오래 삶
+
+p.441
+ground|땅,지면,토양,장소,장,마당,(건물 주위의)뜰,구내,이유,근거,(~에)이유를 두다,근거를 두다,입장,의견
+groundless|근거 없는,사실무근의
+suit|정장,(옷)한 벌,소송,적합하다,편리하다,어울리다
+file a suit|소송을 제기하다

@@ -1,0 +1,120 @@
+p.296
+linguistic|언어의,언어학의
+linguist|언어학자
+lingual|언어의,말의,혀의
+linguistics|언어학
+bilingual|2개 국어를 할 줄 아는,이중 언어 사용자
+monolingual|하나의 언어를 할 줄 아는,단일 언어 사용자
+multilingual|여러 언어를 할 줄 아는,다중 언어 사용자
+usage|(단어의)용법,어법,사용,사용량
+verbal|언어의,(글이 아닌)구두의,말로 된
+verbally|구두로,말로
+
+p.297
+vowel|모음,모음 글자
+consonant|자음,자음 글자
+intonation|억양,어조
+accent|악센트,강세,말투
+pronounce|발음하다,(공개적으로)선언하다
+pronunciation|발음
+utter|말을 하다,소리를 내다,완전한,순전한
+utterance|발화,발언
+utterly|완전히,순전히
+recite|(시 등을)암송하다,낭독하다
+
+p.298
+fluent|(특히 외국어가)유창한
+fluency|유창함
+fluently|유창하게
+dialect|방언,사투리
+proverb|속담,격언
+maxim|격언,금언
+slang|속어,은어
+idiom|숙어,관용구,방언,사투리
+riddle|수수께끼
+analogy|비유,유사점
+metaphor|은유,비유
+metaphorically|은유적으로,비유적으로
+exaggerate|과장하다
+exaggeration|과장
+
+p.299
+paradox|역설,역설적인 사람,역설적인 일
+irony|모순,아이러니,아이러니한 상황,반어,반어법
+ironic(al)|모순적인,반어적인
+sarcastic|풍자적인,비꼬는
+sarcasm|빈정댐,비꼼
+rhetoric|수사법,미사여구
+rhetorical|수사적인,미사여구식의
+connotation|함축,함축된 의미
+connote|의미를 함축하다
+rhyme|운을 맞추다,각운,운문
+satire|풍자,풍자 문학
+satirical|풍자적인
+allegory|풍자,우화
+abbreviate|줄여 쓰다,축약하다
+allude|암시하다,넌지시 말하다
+allusion|암시
+accentuate|강조하다
+discourse|(특정 주제에 대한)담화,담론,이야기하다
+
+p.300
+profess|(감정.믿음 등을)공언하다,고백하다,(사실이 아닌 것을)주장하다
+murmur|속삭이다,중얼거리다,속삭임
+mutter|(특히 불만스러워서)중얼거리다,투덜거리다
+mumble|중얼거리다,중얼거림
+exclaim|소리치다,외치다
+exclamation|감탄사
+vow|맹세하다,서약하다,맹세,서약
+pledge|(굳게)약속하다,맹세하다,약속,맹세
+
+p.301
+urge|강력히 권고하다,(강한)욕구,충동
+urge A to-v|A가 v하도록 강력히 권고하다
+an urge to-v|v하고 싶은 욕구,v하고 싶은 충동
+dispute|논쟁하다,반박하다,이의를 제기하다,분쟁,논쟁
+pros and cons|찬반양론,장단점
+justify|정당화하다,옳음을 증명하다
+justification|정당화,정당한 이유
+advocate|지지하다,옹호하다,지지자,옹호자,변호사
+advocacy|지지,옹호,변호
+denote|의미하다,나타내다
+signify|의미하다,나타내다,중요하다
+gossip|소문,험담
+curse|욕설,악담,욕설을 하다,악담을 하다,저주,저주를 퍼붓다
+
+p.302
+draft|초안,징병,초안을 작성하다,선발하다,징병하다
+plot|(책.영화 등의)줄거리,음모,줄거리를 짜다,음모를 꾸미다
+punctuate|(마침표.쉼표 등의)구두점을 찍다,간간이 끼어들다,중단시키다
+punctuation|구두점
+genre|(예술 작품의)장르,유형
+narrative|서술,이야기,이야기의
+narrator|서술자,이야기하는 사람
+narration|서술,이야기함
+narrate|서술하다,이야기하다
+
+p.303
+lyric|서정시의,서정시,노래 가사
+lyrical|서정적인
+myth|신화,근거 없는 믿음
+mythic(al)|신화의,사실이 아닌
+prose|산문,산문체
+verse|운문,시,연,절
+lore|구전지식,구비설화
+folklore|민속,전통문화
+epic|서사시,서사시의
+fable|우화,꾸며낸 이야기
+fabulous|우화에 나오는,엄청난,굉장한
+anecdote|(주로 짧고 재미있는)일화
+humorous|재미있는,유머러스한
+monotonous|단조로운,지루한
+
+p.304
+account|계좌,(인터넷 등의)계정,장부,외상,외상 거래,설명하다,설명,이유,근거
+take A into account|A를 고려하다
+give an account of|~을 설명하다
+accountability|책임,의무
+
+p.305
+note|메모,쪽지,필기,노트,지폐,주목하다,주의하다,언급하다,말하다,음,음표,(특정한)어조,기색,분위기

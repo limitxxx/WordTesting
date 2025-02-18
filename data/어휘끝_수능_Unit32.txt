@@ -1,0 +1,95 @@
+p.340
+agriculture|농업,농사
+agricultural|농업의,농사의
+peasant|소작농,농부
+fertile|비옥한,기름진
+fertilize|비료를 주다,수정시키다
+fertilizer|비료
+compost|퇴비,퇴비를 주다
+manure|거름,거름을 주다,천연 비료
+
+p.341
+plow/plough|쟁기,쟁기로 갈다,경작하다
+reservoir|저수지,저장,저장소,보고
+irrigate|관개하다,(땅에)물을 대다
+irrigation|관개
+drain|물을 빼다,(힘.돈 등을)소모시키다,고갈시키다,배수관
+ditch|배수로,버리다
+drainage|배수
+pesticide|농약,살충제
+
+p.342
+organic|유기농의,유기체의,생물의
+ripe|(곡물.과일이)익은,숙성한
+ripen|익다,숙성하다
+harvest|수확,수확물,수확하다
+crop|농작물,수확량
+produce|농산물,생산물
+grain|곡물,알갱이
+mill|방앗간,공장,(가루가 되도록)갈다
+
+p.343
+orchard|과수원
+pasture|초원,목초지
+ranch|(대규모)목장
+livestock|가축
+cattle|(집합적)소
+herd|떼,무리,(무리를)이끌다
+flock|(특히 새의)떼,무리,(많은 수가)모이다
+swarm|(특히 곤충의)떼,무리,무리지어 이동하다
+hay|건초,말린 풀
+graze|풀을 뜯다,방목하다
+grazing|목초지,방목지
+
+p.344
+slaughter|도살,대학살,(가축을)도살하다
+log|통나무,일지,벌목하다,일지를 기록하다
+timber|목재,(목재용)수목,산림
+fishery|어장,어업
+fisherman|어부
+industrialize/industrialise|산업화하다,공업화하다
+industrialization|산업화,공업화
+industrialized|산업화된,공업화된
+
+p.345
+manufacture|제조하다,생산하다,제조,생산,제품
+manufacturer|제조업자,생산 회사
+automate|자동화하다
+automatic||자동의,반사적인
+automation|자동화
+label|상표,라벨,상표를 붙이다,라벨을 붙이다
+label A (as) B|A를 B라고 부르다
+distribution|(상품의)유통,분배,나누어 줌,분포
+distribute|(상품을)유통하다,분배하다
+distributor|유통회사,배급업자
+
+p.346
+article|(신문.잡지 등의)기사,(계약서 등의)조항,물건,물품
+headline|(신문 기사 등의)표제
+bulletin|(뉴스)속보,공고,게시
+bulletin board|게시판
+editorial|(신문.잡지의)사설,논평,사설의,편집과 관련된
+sidebar|(주요 기사 옆에 짧게 곁들이는)관련 기사
+caption|캡션,(사진.삽화 등에 붙인 설명)자막
+classified ads|(신문의)안내 광고
+tabloid|타블로이드판 신문
+broadcast|방송하다,널리 알리다,사방에 퍼뜨리다,방송
+
+p.347
+dispatch|보내다,파견하다,파견
+relay|(정보.소식 등을)전달하다,중계하다,중계,릴레이 경주,계주
+herald|보도하다,알리다,예고하다
+publicity|(언론의)관심,널리 알려짐,광고,홍보
+censor|검열하다,검열관
+censorship|검열
+
+p.348
+press|누르다,압축하다,압박하다,강요하다,인쇄,인쇄기,신문,언론
+current|현재의,지금의,해류,기류,전류,(특정 집단 사람들 사이의)경향,추세
+currently|현재는,지금은
+currency|통화,화폐,통용,유통
+
+p.349
+cover|덮다,씌우다,덮개,표지,다루다,포함하다,취재하다,보도하다,(보험으로)보장하다,(돈을)충당하다,(언급된 거리를)가다
+be covered with|~로 뒤덮이다
+coverage|(책 등에 포함된 정보의)범위,보도,방송,(보험의)보상,보상 범위

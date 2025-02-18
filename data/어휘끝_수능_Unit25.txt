@@ -1,0 +1,94 @@
+p.270
+organism|유기체,(작은)생물
+microbe|미생물
+germ|세균,병균
+fungi|균류
+bacteria|박테리아,세균
+pest|해충,역병,흑사병
+cell|세포,작은 방,독방,전지
+cellular|세포의,휴대 전화의
+
+p.271
+tissue|(세포들로 이뤄진)조직,화장지,얇은 종이,얇은 천
+ape|유인원,꼬리 없는 원숭이
+mammal|포유동물
+primate|영장류
+reptile|파충류
+carnivore|육식동물
+herbivore|초식동물
+omnivore|잡식동물
+amphibian|양서류
+rodent|설치류
+avian|조류의
+wildlife|야생동물
+
+p.272
+botanic(al)|식물의,식물학의,식물학상의
+botany|식물학
+botanist|식물학자
+vegetation|(특정 지역의)초목,식물
+stem|(식물의)줄기,대,어간,생기다,유래하다
+stem from|~에서 유래하다,~에서 생겨나다
+predator|포식자,포식 동물,약탈자
+prey|(동물의)먹이,사냥감,희생자,피해자
+fall prey to|~의 희생자가 되다,~의 희생양가 되다
+
+p.273
+parasite|기생 동물,기생 식물,기생충
+parasitic|기생하는,기생충에 의한
+breed|새끼를 낳다,사육하다,재배하다,야기하다,일으키다,품종
+breeding|번식,사육
+sperm|정자
+ovum|난자
+mating|짝짓기
+incubate|(알을)품다,배양하다
+hatch|(알을)깨다,부화하다,(배.항공기의)출입문,출입구
+sting|(가시.침 등으로)찌르다,쏘다,따끔거리다,쓰리다
+burrow|(굴을)파다,(~속으로)파고들다,파묻다,굴
+
+p.274
+pollination|수분
+pollen|꽃가루,화분
+pollinate|수분하다
+pollinator|(곤충 등의)꽃가루 매개자
+sprout|싹,싹이 나다
+bud|꽃봉오리,눈,봉오리를 맺다
+blossom|꽃이 피다,(얼굴.형편이)피다, 좋아지다,(과일나무의)꽃
+blossoming|개화
+bloom|꽃이 피다,(관상용)꽃,한창,한창때,전성기
+wither|시들다,말라 죽다,약해지다,사라져 가다
+ferment|발효되다,발효시키다,발효,발효균,효소
+fermentation|발효,발효 작용
+
+p.275
+dormant|(동식물이)발육을 중단한,휴면기의,동면중의
+hibernation|겨울잠,동면
+hibernate|겨울잠 자다,동면하다
+aquatic|물가에서 자라는,물속에서 자라는,물과 관련된
+aquarium|수족관
+nocturnal|야행성의
+adaptation|적응,각색
+adaptive|적응할 수 있는,적응성의
+adaptability|적응성,순응성
+tame|(짐승 등을)길들이다,길들여진
+
+p.276
+gene|유전자
+genetic|유전의,유전학의,유전자의
+genetics|유전학
+heredity|유전,유전적 특징
+species|(분류상의)종
+hybrid|(동식물의)잡종,혼성체,혼합물
+hybrid car[vehicle]|하이브리드 승용차
+evolve|진화하다,(점진적으로)발전하다
+evolution|진화,발전,전개
+evolutionary|진화의,점진적인
+mutate|돌연변이가 되다,변화하다
+mutation|돌연변이,변화
+
+p.277
+measure|측정하다,재다,척도,기준,평가하다,판단하다,조치,대책
+take measures to-v|v하기 위해 조치를 취하다
+measurement|측정,측량,(높이.길이 등의)치수
+measurable|측정할 수 있는,상당히 중요한
+trunk|(나무)줄기,(사람의)몸통,(코끼리의)코,여행용 큰 가방,(자동차의)트렁크

@@ -1,0 +1,76 @@
+p.396
+military|군사의,무력의,군인들,군대
+enlist|입대하다,징집하다,(협조.참여를)요청하다
+martial|군대의,전쟁의,호전적인
+martial arts|무예
+troop|(대규모의)병력,군대,무리
+corps|군단,부대,(특정한 활동을 하는)단체,집단
+
+p.397
+navy|해군
+admiral|해군 대장,제독
+fleet|(해군)함대,선단
+veteran|퇴역 군인,전문가,노련한,경험이 많은
+deployment|(군대.무기의)배치,(인력.자원 등의 효율적인)투입,동원
+deploy|배치하다,(자원 등을)효율적으로 사용하다
+array|(군대를)정렬시키다,(보기 좋게)배열하다,정렬,배열
+an array of|다수의
+
+p.398
+salute|경례하다,인사하다,경례
+march|행진하다,행군하다,가두행진하다,행진,행군,가두행진하다
+escort|호위하다,호송하다,에스코트하다,호위대
+warfare|전쟁,교전 상태,투쟁,싸움
+combat|전투,싸움,싸우다
+battlefield|전쟁터,전장,논쟁의 장,갈등의 장
+fort|요새,보루
+fortify|요새화하다,강화하다
+
+p.399
+foe|적,원수
+command|명령하다,지휘하다,통제하다,(경치가)내려다보이다,명령,지휘,통제
+take command of|(~을)통제하다
+commander|지휘관,사령관
+bombard|폭격하다,(질문.비난 등을)퍼붓다
+besiege|(도시 등을)포위하다,둘러싸다
+siege|포위 공격
+assault|폭행,폭격,폭행하다,공격하다
+retreat|후퇴하다,물러서다,(생각.태도 등을)철회하다,바꾸다,후퇴,철회
+
+p.400
+refuge|피난,피난처,도피,도피처
+refugee|피난민,망명자
+captive|포로의,사로잡힌,포로
+captivity|감금,억류
+surrender|항복하다,(권리 등을)포기하다,넘겨주다
+colony|식민지
+colonial|식민지의,식민지 시대의
+colonist|식민지 개척자,식민지 주민
+colonize|식민지로 만들다
+tactic(s)|전술,전략,작전
+tactical|전술적인,전략적인
+
+p.401
+disguise|변장하다,위장하다,숨기다,감추다,변장,위장
+camouflage|위장하다,감추다,위장
+ambush|잠복,매복,매복했다가 습격하다
+raid|습격하다,급습하다,침입하다,습격,급습,(불법)침입
+bullet|총알,탄환
+pistol|권총,피스톨
+rifle|소총,라이플총
+trigger|(총의)방아쇠,촉발시키다,계기
+gunpowder|화약
+
+p.402
+cannon|대포
+artillery|대포,포병대
+spear|창,투창
+shield|방패
+armor|갑옷
+shot|발사,발포,총알,차기,던지기,타격,주사,시도,촬영,사진
+
+p.403
+yield|생산하다,초래하다,(농작물 등의)산출량,굴복하다,항복하다,양보하다
+associate|연상시키다,관련짓다,어울리다,교제하다,동료,친구,협력하다,연합하다,제휴한
+be associated with|~와 연관되다,~와 관련되다
+association|연관,연관성,협회

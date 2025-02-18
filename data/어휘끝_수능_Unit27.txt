@@ -1,0 +1,105 @@
+p.286
+pregnant|임신한,임신하고 있는
+adolescent|(사춘기)청소년의,(사춘기)청소년
+puberty|사춘기
+adolescence|청소년기,사춘기
+infant|유아,유아의
+adolescent|청소년,청소년의
+adult|성인,성인의
+elderly|노년,노년의,(the-)중장년층
+perish|(갑자기)죽다,멸망하다,사라지다
+perishable|썩기 쉬운,잘 상하는
+doom|불운,파멸,(불행한)운명을 맞게 하다
+be doomed to|~할 수밖에 없는 운명이다
+
+p.287
+grave|무덤,중대한,심각한,엄숙한
+tomb|묘,무덤
+cemetery|공동묘지
+graveyard|묘지
+headstone|묘비
+coffin|관
+corpse|시체,송장
+legacy|유산,유물,물려받은 것
+inheritance|유산,상속,유전
+inherit|(재산 등을)상속받다,(유전적으로)물려받다
+heir|상속인,계승자,후계자
+
+p.288
+solidarity|연대,결속
+kinship|친족,친족임,친척 관계,연대감
+reciprocity|상호 의존,호혜
+reciprocate|보답하다
+parental|부모의,어버이로서의
+maternal|어머니의,모성의
+maternity|어머니임,모성
+paternal|아버지의,부성의
+paternity|아버지임,부성
+sibling|형제자매
+
+p.289
+offspring|자식,자손,(동물의)새끼
+fellow|동료,친구,녀석
+mate|동료,친구,짝
+bride|신부,새색시
+(bride)groom|신랑
+nurture|(아이를)기르다,양육하다,양성하다,육성하다
+quarrel|다투다,언쟁을 벌이다,다툼,언쟁
+betray|배신하다,배반하다,(비밀을)누설하다
+
+p.290
+alienate|(사람을)소원하게 하다,멀리하다
+be alienated from|~와 소원해지다,~로부터 멀어지다
+alienation|소외,멀리함
+divorce|이혼하다,분리하다,단절시키다,이혼,분리,단절
+farewell|작별,작별 인사,작별의,고별의
+reconcile|화해시키다,일치시키다,조화시키다
+reconciliation|화해,일치,조화
+discipline|훈련,단련,규율,훈육,자제,자제심,절제력,학과,학문 분야,훈련하다,단련하다
+self-discipline|자기 훈련,자기 수양
+
+p.291
+instruct|가르치다,교육하다,지시하다,명령하다
+instruction|교육,지시,지도,설명,설명서
+instructor|(특정 기술을 가르치는)강사,교사
+instructive|교육적인,유익한
+aptitude|소질,적성
+expertise|전문 지식,전문 기술
+scholar|학자,장학생
+scholarship|학문,학식,장학금
+guideline|가이드라인,지침,지표
+
+p.292
+encyclopedia|백과사전
+secondary|중등교육의,중등학교의,이차적인,부수적인
+preschool|유치원,취학 전의
+primary[elementary] school|초등학교
+junior high school|중학교
+high school|고등학교
+college[university]|대학교
+boarding school|기숙학교
+faculty|(대학의)학부,교수진,(타고난)능력,재능
+dormitory|기숙사
+tuition|수업료,등록금
+
+p.293
+sophomore|(4년제 대학.고교의)2학년생
+freshman|(대학.고교의)신입생
+junior|(4년제 대학.고교의)3학년 학생,(2년제 대학의)1학년 학생
+senior|(대학.고교의)마지막 학년 학생,졸업반 학생
+undergraduate|대학생,학부생
+alumni|졸업생
+graduate student|대학원생
+diploma|졸업장,수료증,학위,학위 증서
+bachelor|학사,미혼 남자,독신 남자
+a master[doctor]’s degree|석사 학위,박사 학위
+
+p.294
+issue|쟁점,문제,사안,발표하다,공표하다,발표하다,공표하다,(잡지.면허증 등을)발행하다,발급하다,발행,발급,발행물,(정기 간행물의)호
+deliver|배달하다,전하다,(연설.강연 등을)하다,(아기를)분만하다,출산하다,(약속을)지키다
+delivery|배달,배달물,연설,분만,출산
+
+p.295
+cast|던지다,(시선.미소 등을)향하다,보내다,배역을 맡기다,배역,출연자들,(빛.그림자 등을)드리우다,주조하다,주형,거푸집,깁스,깁스 붕대
+cast a glance[look] at|~을 힐끗 보다
+have ~ in a cast|~에 깁스를 하고 있다
