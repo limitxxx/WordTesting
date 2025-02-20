@@ -20,6 +20,7 @@ p.352
 insure|보험에 들다,보장하다
 insurance|보험,보험료
 hierarchy|계급,계급 제도,계층
+hierarchical|계급의,계층의
 imperial|황제의,제국의
 imperialism|제국주의
 lord|(높은 신분의 남자)귀족,경,(중세 유럽의)영주,하느님,주님
