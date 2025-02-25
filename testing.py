@@ -1,7 +1,9 @@
-import random, copy, tkinter, tkinter.ttk, tkinter.font, os
+import random, copy, tkinter, tkinter.ttk, tkinter.font, os, gtts
+from pygame import mixer
 
-testFiles = []
-with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "option.txt"), "r", encoding="UTF8") as file:
+FileDirPath = os.path.dirname(os.path.abspath(__file__))
+testFiles:list[str] = []
+with open(os.path.join(FileDirPath, "option.txt"), "r", encoding="UTF8") as file:
     while (line:=file.readline()):
         testFiles.append(line.rstrip())
 print(testFiles)
@@ -61,6 +63,13 @@ wordListScrollBar.config(command=wordListText.yview)
 wordOriginLabel = tkinter.Label(window, font=paperlogy5, anchor="w")
 wordPageLabel = tkinter.Label(window, font=paperlogy5, anchor="e")
 
+AudioFileDirPath = os.path.join(FileDirPath, "audio")
+def makeFileName(name:str):
+    return "{}.mp3".format(name.replace("/","+"))
+mixer.init()
+mixer.music.set_volume(1)
+
+AudioFiles = os.listdir(AudioFileDirPath)
 wordSets:dict[str,list[str]] = dict()
 wordOrigin:dict[str,str] = dict()
 wordPage:dict[str,str] = dict()
@@ -74,11 +83,28 @@ for filename in testFiles:
                 wordSets[word[0]] = word[1]
                 wordOrigin[word[0]] = filename
                 wordPage[word[0]] = thisPage
+                audioName = makeFileName(word[0])
+                if not audioName in AudioFiles:
+                    tts = gtts.gTTS(text=word[0])
+                    tts.save(os.path.join(AudioFileDirPath, audioName))
+                    print(audioName, "is made")
             elif line[0] == "p":
                 thisPage = line.rstrip()
 wordNumber = len(wordSets)
 print("loaded {} words completely".format(wordNumber))
 countLabel.config(text="0/{}/0".format(wordNumber))
+
+def playWordAudio():
+    audioName = makeFileName(wordKeys[wordIndex])
+    try:
+        mixer.music.load(os.path.join(AudioFileDirPath, audioName))
+    except:
+        print("Catching The Error\nTrying recovery")
+        tts = gtts.gTTS(text=wordKeys[wordIndex])
+        tts.save(os.path.join(AudioFileDirPath, audioName))
+        print(audioName, "is made")
+        mixer.music.load(os.path.join(AudioFileDirPath, audioName))
+    mixer.music.play()
 
 wordKeys = list(wordSets.keys())
 random.shuffle(wordKeys)
@@ -90,6 +116,7 @@ wrongWords = []
 wordLabel.config(text=wordKeys[wordIndex])
 wordOriginLabel.config(text=wordOrigin[wordKeys[wordIndex]])
 wordPageLabel.config(text=wordPage[wordKeys[wordIndex]])
+playWordAudio()
 passing = True
 
 def inputWord(event):
@@ -121,6 +148,7 @@ def inputWord(event):
                 wordOriginLabel.config(text=wordOrigin[wordKeys[wordIndex]])
                 wordPageLabel.config(text=wordPage[wordKeys[wordIndex]])
                 passing = True
+                playWordAudio()
         else:
             passing = True
             wordEntry.delete(0,len(wordEntry.get()))
@@ -144,6 +172,7 @@ def inputWord(event):
                 wordOriginLabel.config(text=wordOrigin[wordKeys[wordIndex]])
                 wordPageLabel.config(text=wordPage[wordKeys[wordIndex]])
                 countLabel.config(text="{}/{}/{}".format(totalMemoryCount, wordNumber-totalMemoryCount-len(wrongWords), len(wrongWords)))
+                playWordAudio()
             else:
                 announceLabel.config(text="You memorized {} words in {} words.(+{}/{}) {} words left".format(totalMemoryCount, wordNumber, newMemoryCount, len(wordKeys), len(wrongWords)))
                 gettingWord = True

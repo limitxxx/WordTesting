@@ -5,6 +5,10 @@ window = tkinter.Tk()
 window.title("MainMenu")
 window.geometry("640x400+50+50")
 window.resizable(False, False)
+PLAYPATH = os.path.dirname(os.path.abspath(__file__))
+audioDirPath = os.path.join(PLAYPATH, "audio")
+if not os.path.exists(audioDirPath):
+    os.makedirs(audioDirPath)
 
 paperlogy6 = tkinter.font.Font(family="Paperlogy 6 SemiBold", size=16)
 paperlogy5 = tkinter.font.Font(family="Paperlogy 5 Medium", size=12)
@@ -19,10 +23,12 @@ fileScrollBar.place(x=580,y=0,width=20,height=300)
 
 fileChooseButton = tkinter.Button(window, text="file choose", font=paperlogy6)
 fileNames = []
-PLAYPATH = os.path.dirname(os.path.abspath(__file__))
 def choosingButton():
     global fileNames
-    fileNames = list(filedialog.askopenfilenames(initialdir=PLAYPATH, filetypes=(("text file","*.txt*"),)))
+    if os.path.exists(os.path.join(PLAYPATH, "data")):
+        fileNames = list(filedialog.askopenfilenames(initialdir=os.path.join(PLAYPATH, "data"), filetypes=(("text file","*.txt*"),)))
+    else:
+        fileNames = list(filedialog.askopenfilenames(initialdir=PLAYPATH, filetypes=(("text file","*.txt*"),)))
     fileText.config(state="normal")
     fileText.delete("1.0",tkinter.END)
     fileText.insert("1.0", "\n".join(fileNames))
