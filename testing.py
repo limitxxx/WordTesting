@@ -69,6 +69,15 @@ def makeFileName(name:str):
 mixer.init()
 mixer.music.set_volume(1)
 
+volumeLabel = tkinter.Label(window, font=paperlogy6, anchor="w")
+volume = tkinter.IntVar()
+volumeBar = tkinter.Scale(window, variable=volume, orient="horizontal", showvalue=False, width=10)
+def setVolume(event):
+    mixer.music.set_volume(volumeBar.get()/100)
+    volumeLabel.config(text="volume:{}%".format(volumeBar.get()))
+volumeBar.config(command=setVolume)
+volumeBar.set(100)
+
 AudioFiles = os.listdir(AudioFileDirPath)
 wordSets:dict[str,list[str]] = dict()
 wordOrigin:dict[str,str] = dict()
@@ -185,7 +194,9 @@ def inputWord(event):
                 wordPageLabel.config(text="")
 wordEntry.bind("<Return>", inputWord)
 
-canvas.place(x=0,y=0)
+canvas.place(x=0,y=0,width=WINDOWWIDTH,height=20)
+volumeBar.place(x=0,y=30,width=200,height=20)
+volumeLabel.place(x=200,y=20,width=300,height=40)
 countLabel.place(x=0,y=20,width=WINDOWWIDTH,height=40)
 announceLabel.place(x=0,y=60,width=WINDOWWIDTH,height=100)
 wordLabel.place(x=0,y=160,width=WINDOWWIDTH//2,height=100)
