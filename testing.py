@@ -56,6 +56,7 @@ countLabel = tkinter.Label(window, font=paperlogy6, anchor="e", padx=10)
 announceLabel = tkinter.Label(window, text="", font=paperlogy9, wraplength=WINDOWWIDTH-50)
 wordLabel = tkinter.Label(window, text="", font=paperlogy7, anchor="e", padx=20)
 wordEntry = tkinter.Entry(window, font=paperlogy7)
+replayButton = tkinter.Button(window, text="Replay Pronunciation", font=paperlogy6)
 wordListFrame = tkinter.Frame(window)
 wordListScrollBar = tkinter.Scrollbar(wordListFrame)
 wordListText = tkinter.Text(wordListFrame, font=paperlogy5, yscrollcommand=wordListScrollBar.set, state="disabled")
@@ -102,18 +103,21 @@ for filename in testFiles:
 wordNumber = len(wordSets)
 print("loaded {} words completely".format(wordNumber))
 countLabel.config(text="0/{}/0".format(wordNumber))
+canReplayVoice = True
 
 def playWordAudio():
-    audioName = makeFileName(wordKeys[wordIndex])
-    try:
-        mixer.music.load(os.path.join(AudioFileDirPath, audioName))
-    except:
-        print("Catching The Error\nTrying recovery")
-        tts = gtts.gTTS(text=wordKeys[wordIndex])
-        tts.save(os.path.join(AudioFileDirPath, audioName))
-        print(audioName, "is made")
-        mixer.music.load(os.path.join(AudioFileDirPath, audioName))
-    mixer.music.play()
+    if canReplayVoice:
+        audioName = makeFileName(wordKeys[wordIndex])
+        try:
+            mixer.music.load(os.path.join(AudioFileDirPath, audioName))
+        except:
+            print("Catching The Error\nTrying recovery")
+            tts = gtts.gTTS(text=wordKeys[wordIndex])
+            tts.save(os.path.join(AudioFileDirPath, audioName))
+            print(audioName, "is made")
+            mixer.music.load(os.path.join(AudioFileDirPath, audioName))
+        mixer.music.play()
+replayButton.config(command=playWordAudio)
 
 wordKeys = list(wordSets.keys())
 random.shuffle(wordKeys)
@@ -181,6 +185,7 @@ def inputWord(event):
                 wordOriginLabel.config(text=wordOrigin[wordKeys[wordIndex]])
                 wordPageLabel.config(text=wordPage[wordKeys[wordIndex]])
                 countLabel.config(text="{}/{}/{}".format(totalMemoryCount, wordNumber-totalMemoryCount-len(wrongWords), len(wrongWords)))
+                canReplayVoice = True
                 playWordAudio()
             else:
                 announceLabel.config(text="You memorized {} words in {} words.(+{}/{}) {} words left".format(totalMemoryCount, wordNumber, newMemoryCount, len(wordKeys), len(wrongWords)))
@@ -192,6 +197,7 @@ def inputWord(event):
                 wordLabel.config(text="")
                 wordOriginLabel.config(text="")
                 wordPageLabel.config(text="")
+                canReplayVoice = False
 wordEntry.bind("<Return>", inputWord)
 
 canvas.place(x=0,y=0,width=WINDOWWIDTH,height=20)
@@ -201,6 +207,7 @@ countLabel.place(x=0,y=20,width=WINDOWWIDTH,height=40)
 announceLabel.place(x=0,y=60,width=WINDOWWIDTH,height=100)
 wordLabel.place(x=0,y=160,width=WINDOWWIDTH//2,height=100)
 wordEntry.place(x=WINDOWWIDTH//2+20,y=190,width=WINDOWWIDTH//2-40,height=40)
+replayButton.place(x=WINDOWWIDTH-320,y=160,width=300,height=30)
 wordListText.place(x=0,y=0,width=1080,height=250)
 wordListScrollBar.place(x=1080,y=0,width=20,height=250)
 wordListFrame.place(x=50,y=300,width=1100,height=250)
