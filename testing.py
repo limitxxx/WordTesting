@@ -33,18 +33,6 @@ paperlogy7 = tkinter.font.Font(family="Paperlogy 7 Bold", size=20)
 paperlogy6 = tkinter.font.Font(family="Paperlogy 6 SemiBold", size=16)
 paperlogy5 = tkinter.font.Font(family="Paperlogy 5 Medium", size=12)
 
-# style = tkinter.ttk.Style()
-# style.theme_use("default")
-# style.configure(".greenProgress.BarHorizontal.TProgressbar", background="green")
-# style.layout("redProgressBar.Horizontal.TProgressbar",
-#              [('Horizontal.Progressbar.trough',
-#                {'children': [('Horizontal.Progressbar.pbar',
-#                               {'side': 'right', 'sticky': 'e'})],
-#                               'sticky': 'nswe'})])
-# style.configure("redProgressBar.Horizontal.TProgressbar", background="red")
-
-# greenProgressbar = tkinter.ttk.Progressbar(window, style="greenProgressBar.Horizontal.TProgressbar", orient="horizontal")
-# redProgressbar = tkinter.ttk.Progressbar(window, style="redProgressBar.Horizontal.TProgressbar", orient="horizontal")
 canvas = tkinter.Canvas(window, width=WINDOWWIDTH, height=20, bg="black")
 greenRect = canvas.create_rectangle(0, 0, 0, 20, fill="#21FA90", width=0)
 redRect = canvas.create_rectangle(WINDOWWIDTH, 0, WINDOWWIDTH, 20, fill="#FF0000", width=0)
@@ -83,6 +71,7 @@ AudioFiles = os.listdir(AudioFileDirPath)
 wordSets:dict[str,list[str]] = dict()
 wordOrigin:dict[str,str] = dict()
 wordPage:dict[str,str] = dict()
+wordSortedIndex:dict[str,int] = dict()
 thisPage = ""
 for filename in testFiles:
     with open(filename, "r", encoding="UTF8") as file:
@@ -104,10 +93,11 @@ wordNumber = len(wordSets)
 print("loaded {} words completely".format(wordNumber))
 countLabel.config(text="0/{}/0".format(wordNumber))
 canReplayVoice = True
+gettingWord = True
 
 def playWordAudio():
     if canReplayVoice:
-        audioName = makeFileName(wordKeys[wordIndex])
+        audioName = makeFileName(wordKeys[wordIndex-1+gettingWord])
         try:
             mixer.music.load(os.path.join(AudioFileDirPath, audioName))
         except:
@@ -119,9 +109,15 @@ def playWordAudio():
         mixer.music.play()
 replayButton.config(command=playWordAudio)
 
-wordKeys = list(wordSets.keys())
+wordKeys = sorted(list(wordSets.keys()))
+for i, word in enumerate(wordKeys):
+    wordSortedIndex[word] = i+1
+wordListText.config(state="normal")
+firstText = " | \n".join(wordKeys)+" | "
+wordListText.insert("1.0", firstText)
+wordListText.config(state="disabled")
+wordListText.tag_configure("RedColor", foreground="red")
 random.shuffle(wordKeys)
-gettingWord = True
 totalMemoryCount = 0
 newMemoryCount = 0
 wordIndex = 0
@@ -137,19 +133,24 @@ def inputWord(event):
     if passing or wordEntry.get() in getAnswers(wordSets[wordKeys[wordIndex-1]]):
         if wordIndex != len(wordKeys):
             if gettingWord and wordEntry.get() != "":
+                wordListText.config(state="normal")
                 if wordEntry.get() in getAnswers(wordSets[wordKeys[wordIndex]]):
                     announceLabel.config(text="correct -> {}".format(", ".join(wordSets[wordKeys[wordIndex]])))
                     totalMemoryCount += 1
                     newMemoryCount += 1
                     setGreenRect(wordNumber, totalMemoryCount)
+                    wordListText.insert("{}.{}".format(wordSortedIndex[wordKeys[wordIndex]], len(wordKeys[wordIndex])+3),
+                                        ", ".join(wordSets[wordKeys[wordIndex]]))
                 else:
                     announceLabel.config(text="wrong, answer is " + ", ".join(wordSets[wordKeys[wordIndex]]))
                     wrongWords.append(wordKeys[wordIndex])
-                    wordListText.config(state="normal")
-                    wordListText.insert("1.0", "{} | {}\n".format(wordKeys[wordIndex], ", ".join(wordSets[wordKeys[wordIndex]])))
-                    wordListText.config(state="disabled")
                     setRedRect(wordNumber, len(wrongWords))
+                    wordListText.insert("{}.{}".format(wordSortedIndex[wordKeys[wordIndex]], len(wordKeys[wordIndex])+3),
+                                        ", ".join(wordSets[wordKeys[wordIndex]]),
+                                        ("RedColor"))
                     passing = False
+                wordListText.see("{}.0".format(wordSortedIndex[wordKeys[wordIndex]]))
+                wordListText.config(state="disabled")
                 countLabel.config(text="{}/{}/{}".format(totalMemoryCount, wordNumber-totalMemoryCount-len(wrongWords), len(wrongWords)))
                 gettingWord = False
                 wordIndex += 1
@@ -168,20 +169,23 @@ def inputWord(event):
             if gettingWord:
                 wordIndex = 0
                 newMemoryCount = 0
+                wordListText.config(state="normal")
                 if totalMemoryCount == wordNumber:
                     wordKeys = list(wordSets.keys())
                     totalMemoryCount = 0
                     setGreenRect(wordNumber,0)
+                    wordListText.delete("1.0",tkinter.END)
+                    wordListText.insert("1.0", firstText)
                 else:
+                    for word in wrongWords:
+                        wordListText.delete("{}.{}".format(wordSortedIndex[word],len(word)+3), "{}.end".format(wordSortedIndex[word]))
                     wordKeys = copy.deepcopy(wrongWords)
+                wordListText.config(state="disabled")
                 setRedRect(wordNumber,0)
                 random.shuffle(wordKeys)
                 wrongWords = []
                 wordLabel.config(text=wordKeys[wordIndex])
                 announceLabel.config(text="")
-                wordListText.config(state="normal")
-                wordListText.delete("1.0",tkinter.END)
-                wordListText.config(state="disabled")
                 wordOriginLabel.config(text=wordOrigin[wordKeys[wordIndex]])
                 wordPageLabel.config(text=wordPage[wordKeys[wordIndex]])
                 countLabel.config(text="{}/{}/{}".format(totalMemoryCount, wordNumber-totalMemoryCount-len(wrongWords), len(wrongWords)))
